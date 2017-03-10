@@ -12,10 +12,6 @@ Just another JavaScript utility full of useful helper functions and classes.
 
 Added a function for converting date objects to the IETF RFC 3339 standard.
 
-## Version 1.1.0 (2017-03-10)
-
-Added a function for converting date objects to the IETF RFC 3339 standard.
-
 ## Version 1.0.0 (2016-09-02)
 
 Helper functions are complete and stable.
