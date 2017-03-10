@@ -1,0 +1,22 @@
+{
+  "name": "another-util",
+  "version": "1.1.1",
+  "description": "Just another JavaScript utility full of useful helper functions and classes.",
+  "main": "./src/another-util.js",
+  "dependencies": {
+    "jquery": ">=3.1.0 <4.x",
+    "requirejs": ">=2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulcyr/another-util.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "utility",
+    "helper"
+  ],
+  "author": "Paul Cyr <dev@paulcyr.ca> (https://paulcyr.ca)",
+  "license": "MIT",
+  "homepage": "https://github.com/paulcyr/another-util#readme"
+}

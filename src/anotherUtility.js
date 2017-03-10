@@ -1,5 +1,5 @@
-/*! AnotherUtility - v1.0.0 - 2016-09-02
- * https://github.com/thisispaulcyr/AnotherUtility
+/*! another-util - v1.1.0 - 2017-10-03
+ * https://github.com/paulcyr/another-util
  * Paul Cyr <web@thisispaul.ca> (http://thisispaul.ca)
  * License: MIT */
 
