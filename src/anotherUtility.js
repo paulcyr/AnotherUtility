@@ -1,7 +1,7 @@
 /*! AnotherUtility - v1.0.0 - 2016-09-02
  * https://github.com/thisispaulcyr/AnotherUtility
  * Paul Cyr <web@thisispaul.ca> (http://thisispaul.ca)
- * Licensed MIT */
+ * License: MIT */
 
 "use strict";
 
@@ -1544,6 +1544,11 @@ anotherUtility.validator = {
 	,isString: function (subject) { return typeof subject === 'string'; }
 	,isNotEmptyString: function(subject) { return this.isString(subject) && subject.length > 0; }
 	,isSymbol: function(subject) { return typeof subject === 'symbol'; }
+}
+
+anotherUtility.dateToIetfDate = function(date) {
+	if(!date instanceof Date) throw new anotherUtility.ArgumentError(date, 'date', 'dateToIetfDate');
+	return date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2);
 }
 
 return anotherUtility;
