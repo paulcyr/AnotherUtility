@@ -1,5 +1,5 @@
-# AnotherUtility
-Just another JavaScript utility full of useful helper functions.
+# another-util
+Just another JavaScript utility full of useful helper functions and classes.
 
 * Author: [Paul Cyr](http://thisispaul.ca) // web@thisispaul.ca
 * License: MIT
